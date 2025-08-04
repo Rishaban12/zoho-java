@@ -37,7 +37,7 @@ class Bus extends booking{
 
     @Override
     void display() {
-        display();
+        super.display();
         System.out.println("seat: "+ seatBook);
         System.out.println("seats are Ac or Not: "+acOrNot);
         System.out.println("------------------------------------------------------------------");
